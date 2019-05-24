@@ -76,6 +76,47 @@ body{
     color: black;
     transition: 1.2s;
 }
+.content{
+    position: absolute;
+    width: 30%;
+    left: 1%;
+    top: 20%;
+    color: rgb(244, 245, 157);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.content1{
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    top: 20%;
+    color: rgb(199, 241, 245);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.proj{
+    width: 100%;
+}
+.content a img{
+    cursor: pointer;
+}
+
+
+.content2 a img{
+    cursor: pointer;
+}
+.content2{
+    position: absolute;
+    width: 30%;
+    left: 69%;
+    top: 20%;
+    color: #c3e4e6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.proj-head{
+    color: #e9e7e7;
+}
 .base-tag{
     position: absolute;;
     width: 50%;
@@ -88,22 +129,5 @@ body{
         left: 85%;
         width: 15%;
     }
-    .head-name{
-        position: absolute;
-        top: 50%;
-        left: 20%;
-      }
-    h2{
-       font-size: 60px; 
-    
-    }
-    .tag-line{
-        position: absolute;
-        top: 60%;
-        left: 22%; 
-    }
-    h3{
-        font-size: 60px; 
-        
-     }
+   
 }
