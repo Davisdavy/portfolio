@@ -124,10 +124,25 @@ body{
     left:43%;
     color: black;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     .pic{
         left: 85%;
         width: 15%;
     }
-   
+    .icon-box1{
+        position: absolute;
+        top: 2.5%;
+        left: 68.5%;
+    }
+    .icon-box2{
+        position: absolute;
+        top: 2.5%;
+        left: 76.5%;
+    }
+    .slack1{
+        font-size: 40px;
+    }
+    .slack{
+        font-size: 40px;
+    }
 }
