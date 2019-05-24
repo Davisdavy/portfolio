@@ -10,18 +10,32 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.pic{
+    position: absolute;
+    top: 2%;
+    left: 90%;
+    width: 10%;
+}
+.pic a{
+    cursor: pointer;
+}
+.pic a img{
+    border-radius: 50%;
+    width: 50%;
+}
 
 .nav{
     background: none;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 50%;
     height: 15%;
     overflow: hidden;
 }
 .nav a {
     float: left;
     display: block;
+    font-size: 18px;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -29,7 +43,7 @@ body{
   }
   .nav a:hover {
     background: rgb(240, 203, 203);
-    color: black;
+    color: rgb(150, 139, 139);
     transition: 1.2s; 
   }
   .intro{
@@ -49,7 +63,7 @@ body{
   }
 h2{
    font-size: 80px; 
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Alfa Slab One', cursive;
    color: white; 
    font-weight: bolder;
 
@@ -61,7 +75,7 @@ h2{
 }
 h3{
     font-size: 80px; 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     color: rgb(241, 207, 220); 
     font-weight: bolder;
     letter-spacing: 1px;
@@ -70,7 +84,30 @@ h3{
     position: absolute;;
     width: 50%;
     top: 93%;
-    left:45%;
+    left:43%;
     color: black;
- }
-  
+}
+@media screen and (max-width: 720px) {
+    .pic{
+        left: 85%;
+        width: 15%;
+    }
+    .head-name{
+        position: absolute;
+        top: 50%;
+        left: 20%;
+      }
+    h2{
+       font-size: 60px; 
+    
+    }
+    .tag-line{
+        position: absolute;
+        top: 60%;
+        left: 22%; 
+    }
+    h3{
+        font-size: 60px; 
+        
+     }
+}
