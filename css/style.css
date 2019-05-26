@@ -91,7 +91,23 @@ h3{
     top: 100%;
     left: 8%;
 }
-
+.person{
+    display:inline-block;
+}
+.span{
+    float:left;width: 28%;
+}
+.span1{
+    float:right;width: 54%;
+}
+.about-para{
+    float:right; display:block;
+    color: #5f5f5f;
+}
+.about-para1{
+    float:right; display:block;
+    color: #5f5f5f;
+}
 .line1{
     position: absolute;
     top: 70%;
@@ -121,4 +137,14 @@ h3{
         font-size: 60px; 
         
      }
+    .about-para1{
+        display: none;
+        
+    }
+    .span{
+       width: 32%;
+    }
+    .span2{
+        display: none;
+    }
 }
