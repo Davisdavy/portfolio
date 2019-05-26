@@ -7,3 +7,6 @@ Thi is a beginner level porfolio. It is a show case of the little but tough proj
 
 ### About page
 ![](https://raw.githubusercontent.com/Davisdavy/portfolio/master/css/images/land1.png)
+
+### Projects page
+![](https://raw.githubusercontent.com/Davisdavy/portfolio/master/css/images/land2.png)
