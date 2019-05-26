@@ -116,7 +116,7 @@ button{
 #about-section{
     position: absolute;
     top: 100%;
-    left: 8%;
+    width: 100%;
 }
 .person{
     display:inline-block;
@@ -203,6 +203,25 @@ button{
 .project-title{
     text-align: center;
 }
+#contact-page{
+    position: absolute;
+    top: 290%;
+    width: 100%;
+}
+.contact-content{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+#name{
+    border: none;
+    outline: none;
+    background: none;
+}
+#name:hover{
+    background: #5f5f5f;
+    font-size: 20px;
+}
 @media screen and (max-width: 720px) {
     .pic{
         left: 85%;
@@ -223,11 +242,9 @@ button{
     }
     h3{
         font-size: 60px; 
-        
      }
     .about-para1{
         display: none;
-        
     }
     .span{
        width: 32%;
@@ -239,5 +256,17 @@ button{
         position: absolute;
         top: 85%;
         left: 38%;
+    }
+    .line1{
+        width: 60px;
+        top: 15%;
+    }
+    .line2{
+        width: 60px;
+        top: 15%;
+    }
+    .line3{
+        width: 60px;
+        top: 12%;
     }
 }
