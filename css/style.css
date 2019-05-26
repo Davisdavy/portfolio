@@ -135,19 +135,12 @@ button{
     float:right; display:block;
     color: #5f5f5f;
 }
-.line1{
-    position: absolute;
-    top: 70%;
-    width: 400px;
-    border: 1px solid #f2f2f2;
-    height: 1px;
-}
 .content{
     position: absolute;
     width: 30%;
     left: 1%;
-    top: 200%;
-    color: rgb(244, 245, 157);
+    top: 87%;
+    color: #5f5f5f;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
@@ -155,8 +148,8 @@ button{
     position: absolute;
     width: 30%;
     left: 35%;
-    top: 200%;
-    color: rgb(199, 241, 245);
+    top: 87%;
+    color: #5f5f5f;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
@@ -166,8 +159,6 @@ button{
 .content a img{
     cursor: pointer;
 }
-
-
 .content2 a img{
     cursor: pointer;
 }
@@ -175,13 +166,42 @@ button{
     position: absolute;
     width: 30%;
     left: 69%;
-    top: 200%;
-    color: #c3e4e6;
+    top: 87%;
+    color: #5f5f5f;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 .proj-head{
-    color: #e9e7e7;
+    color: #928181;
+}
+.line1{
+    position: absolute;
+    top: 12%;
+    width: 120px;
+    border: 1px solid #f2f2f2;
+    height: 1px;
+}
+.line2{
+    position: absolute;
+    top: 12%;
+    width: 120px;
+    border: 1px solid #f2f2f2;
+    height: 1px;
+}
+.line3{
+    position: absolute;
+    top: 12%;
+    width: 120px;
+    border: 1px solid #f2f2f2;
+    height: 1px;
+}
+#project-container{
+    position: absolute;
+    top: 200%;
+    width: 100%;
+}
+.project-title{
+    text-align: center;
 }
 @media screen and (max-width: 720px) {
     .pic{
