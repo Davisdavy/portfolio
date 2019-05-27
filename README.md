@@ -14,7 +14,8 @@ Thi is a beginner level porfolio. It is a show case of the little but tough proj
 
 
 ### NOTE
-The social-media icons do not work for now but I plan on updating them as I advance.
+1.The project section are clickable to redirect you to the actual page.
+2.The social-media icons do not work for now but I plan on updating them as I advance.
  LICENCE 
 MIT License
 
