@@ -10,8 +10,24 @@ Thi is a beginner level porfolio. It is a show case of the little but tough proj
 
 ### Projects page
 ![](https://raw.githubusercontent.com/Davisdavy/portfolio/master/css/images/land2.png)
-####LICENCE 
+
+
+
+### NOTE
+The social-media icons do not work for now but I plan on updating them as I advance.
+ LICENCE 
 MIT License
+
+###Languages Used
+ 1.HTML
+ *CSS
+####HTML
+The skeleton of this project is done on this language with some inline styling although not advised
+####CSS
+Although not a language it is worthy mentioning it.
+
+####Want a working page?
+
 
 Copyright (c) [2019] [Davis Wafula davisdavy96@gmail.com]
 
